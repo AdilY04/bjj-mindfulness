@@ -1,0 +1,65 @@
+Project Brief (5-Day Scope)
+
+Project Title: Law Firm Billing & Utilisation Analytics
+
+Objective
+The client has requested a focused analysis of lawyer productivity and billing efficiency. The goal is to:
+Measure billable versus non-billable hours per lawyer, department, and seniority.
+Assess utilisation rates across the firm.
+Identify write-offs and unbilled hours to highlight revenue leakage.
+Provide actionable insights on lawyer productivity and departmental performance.
+
+This project emulates a real-world Big 4 analytics engagement, but scoped to a 5-day timeline for portfolio purposes.
+
+Scope (5 Days)
+
+Day 1 – Data Setup & Mock Dataset
+Load the synthetic dataset into SQL (SQLite or PostgreSQL).
+Write CREATE TABLE statements for Lawyers, Clients, Matters, Time Entries, and Invoices.
+Validate data integrity and types.
+
+Day 2 – ETL & Cleaning
+Pull data from SQL into pandas.
+Compute key metrics:
+Total hours per lawyer
+Billable vs non-billable hours
+Utilisation rate
+Revenue per lawyer/matter
+
+Day 3 – Core Analysis
+Aggregations by:
+Lawyer
+Department
+Seniority
+Client
+Identify:
+Write-offs and unpaid invoices
+Top/bottom performing lawyers and departments
+
+Day 4 – Visualisation & Insights
+Create Matplotlib charts:
+Bar charts: revenue by department
+Line charts: billable hours over time
+Pie charts: client revenue distribution
+Heatmaps: utilisation by lawyer & month
+Generate simple insights (e.g., “Top 10 clients contribute 60% of revenue”)
+
+Day 5 – Final Deliverables & GitHub Prep
+Compile a Jupyter notebook with explanations and charts.
+Structure GitHub repo with clear folders, README, and CSVs/DB.
+Optional: PDF summary of key metrics and visualisations.
+
+Deliverables
+SQL Database / CSVs: Clean tables for analysis.
+Python ETL Notebook: Connects SQL → pandas, computes metrics.
+Analysis Notebook: Aggregations, visualisations, and insights.
+Visualisations: Static charts demonstrating utilisation, revenue, and write-offs.
+
+GitHub Repo: Professional structure with README explaining methodology.
+
+Outcome
+At the end of 5 days, you will have a realistic, corporate-style analytics project that:
+Demonstrates SQL & Python/pandas skills
+Shows corporate-style reporting & visualisations
+Provides insights similar to a Big 4 engagement
+Is ready for GitHub portfolio or interview discussion
