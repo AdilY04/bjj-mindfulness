@@ -1,7 +1,7 @@
 # Saudi Date Classification Using Machine Learning
 
 ## Overview
-This project integrates with my studies on supervised machine learning. The goal is to start with low-level models, such as decision trees, to determine whether a date is Ajwa or Medjool, and then eventually branch onto neural networks for image classification. The dataset is very small, so this project is primarily experimental rather than immediately applicable.
+This project integrates with my studies on supervised machine learning and is primarily experimental rather than immediately applicable (given the small sample size). The goal is to start with low-level models to determine whether a date is Ajwa or Medjool, and then eventually branch onto neural networks for image classification.
 
 ## Dataset
 The dataset contains three subsets:  
@@ -17,7 +17,7 @@ Hand-crafted features of Saudi dates can be used to accurately classify Ajwa and
 
 ## Installation / Usage
 ```bash
-git clone https://github.com/your-username/saudi-date-classification.git
-cd saudi-date-classification
+git clone https://github.com/AdilY04/Saudi-Date-Classification.git
+cd Saudi-Date-Classification
 pip install -r requirements.txt
 python main.py
